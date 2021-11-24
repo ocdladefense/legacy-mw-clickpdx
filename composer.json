@@ -1,0 +1,15 @@
+{
+	"name": "ocdladefense/mw-oauth",
+    "description": "A mediawiki extension for OAuth.",
+    "type": "wordpress-theme",
+    "config": {
+        "preferred-install": {
+            "ocdladefense/*": "source"
+        }
+    },
+    "require": {
+        "ocdladefense/lib-oauth-config": "~2.0",
+        "ocdladefense/lib-salesforce-rest-api":"~3.0",
+        "ocdladefense/lib-http":"~3.0"
+    }
+}
